@@ -15,4 +15,8 @@
 
 <body <?php body_class(); ?>>
 
+<div id="container">
+
+<img src="<?=get_template_directory_uri();?>/images/libertine_letter_graphic.png">
+
 <?php wp_nav_menu( array('theme_location' => 'primary') ); ?>
