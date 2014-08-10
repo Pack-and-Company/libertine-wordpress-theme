@@ -12,3 +12,68 @@ div { position: relative; }
 .alignleft { float:left }
 .alignright { float:right }
 .wp-caption { border:1px solid #666; text-align:center; background:#ccc; padding:10px; margin:10px }
+
+body {
+	font-size: 11px;
+	font-family: "Courier New", Courier, Monaco, monospace;
+	background-color: #e0d6be;
+	color: #000;
+}
+
+#container {
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	width: 443px; /* new = 443px */
+	margin-left: auto;
+	margin-bottom: 0px;
+	margin-right: auto;
+	margin-top: 0px;
+	padding-top: 20px;
+}
+
+.row {
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+img {
+    padding: 0px;
+	margin: 0px;
+	border: None;
+}
+
+a:link,
+a:active,
+a:visited {
+	color: #222;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h3 {
+	margin-left: 0;
+	margin-bottom: 5px;
+	margin-right: 0;
+	margin-top: 0px;
+	font-size: 18pt;
+	font-weight: normal;
+}
+
+#eveve {
+	width: 100%;
+	height: 540px;
+	border: none;
+}
+
+hr {
+    background: url(images/divider.png) no-repeat top center;
+    height: 6px;
+    border: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
