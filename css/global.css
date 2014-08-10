@@ -71,7 +71,7 @@ h3 {
 }
 
 hr {
-    background: url(images/divider.png) no-repeat top center;
+    background: url(../images/divider.png) no-repeat top center;
     height: 6px;
     border: 0;
     margin-top: 10px;
