@@ -14,4 +14,9 @@ function my_init_method() {
 }
 add_action('init', 'my_init_method');
 
+function redirect_after_logout( $logout_url, $redirect = null ) {
+	return $logout_url . '&amp;redirect_to=' . 'http://wordpress.pack.co.nz/wp-login.php';
+}
+add_filter('logout_url', 'redirect_after_logout');
+
 ?>
